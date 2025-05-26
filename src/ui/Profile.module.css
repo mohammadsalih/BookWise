@@ -1,0 +1,13 @@
+.profile {
+  display: inline-block;
+
+  width: 6rem;
+  height: 6rem;
+
+  border-radius: 100rem;
+
+  background-image: url("/picture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

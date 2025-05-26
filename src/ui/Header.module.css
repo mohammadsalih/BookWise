@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+}
+
+.div1 {
+  grid-column: span 2 / span 2;
+}
+
+.div2 {
+  grid-column: span 7 / span 7;
+  grid-column-start: 3;
+}
+
+.div3 {
+  grid-column-start: 10;
+  text-align: right;
+}

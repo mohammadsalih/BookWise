@@ -6,9 +6,12 @@ const AppContext = createContext();
 // Provider component
 function AppProvider({ children }) {
   const [navOpen, setNavOpen] = useState(false);
+  const [searchQuote, setSearchQuote] = useState("");
 
   return (
-    <AppContext.Provider value={{ navOpen, setNavOpen }}>
+    <AppContext.Provider
+      value={{ navOpen, setNavOpen, searchQuote, setSearchQuote }}
+    >
       {children}
     </AppContext.Provider>
   );
